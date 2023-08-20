@@ -1,0 +1,8 @@
+com.maniu.plugin/JavassistTransform.java
+ com.maniu.plugin.JavassistTransform
+com.maniu.plugin/JavassistPlugin1.java
+ com.maniu.plugin.JavassistPlugin1
+com.maniu.plugin/JavassistPlugin2.java
+ com.maniu.plugin.JavassistPlugin2
+com.maniu.plugin/JavassistPlugin.java
+ com.maniu.plugin.JavassistPlugin
