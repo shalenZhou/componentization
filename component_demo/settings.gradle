@@ -15,5 +15,7 @@ dependencyResolutionManagement {
 rootProject.name = "component_demo"
 include ':app'
 include ':modulesCore:Main'
+include ':modulesCore:login'
 include ':modulesBase:libBase'
+include ':modulesBase:libRouter'
 include ':modulesPublic:modulePay'

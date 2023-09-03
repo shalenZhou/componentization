@@ -4,3 +4,32 @@ plugins {
     id 'com.android.library' version '7.4.2' apply false
     id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
 }
+
+ext {
+    isDebug = false //当它为true时，调试模式，组件可以单独运行；当它为false时，正式编译打包的模式
+
+    android = [
+            compileSdkVersion: 33,
+            minSdkVersion    : 24,
+            targetSdkVersion : 33,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    applicationId = [
+            "app"  : "com.example.component_demo",
+            "main" : "com.example.module.main",
+            "login": "com.example.module.login"
+    ]
+
+    library = [
+            "appcompat"       : "androidx.appcompat:appcompat:1.6.1",
+            "material"        : "com.google.android.material:material:1.9.0",
+            "constraintlayout": "androidx.constraintlayout:constraintlayout:2.1.4",
+            "core"            : "androidx.core:core-ktx:1.10.1"
+    ]
+
+    libARouter = "com.alibaba:arouter-api:1.5.2"
+    libARouterCompiler = "com.alibaba:arouter-compiler:1.5.2"
+    libGson = "com.google.code.gson:gson:2.8.6"
+}
